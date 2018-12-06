@@ -27,11 +27,11 @@ do
 		  $new_car>>My_old_cars
 		  ;;
 		"2" )
-
+		  sort My_old_cars
   		  ;;	  
 		"Q" ) 
 		  echo "Goodbye!"
 		  continue_=0
-
+		  ;;
 	esac
 done		  
